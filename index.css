@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+/* Common Button Style */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #09595c;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #359a9e;
+}
+
+
+/* Reset Button Style */
+button.reset {
+  background-color: #d71b06; /* red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.reset:hover {
+  background-color: #c0392b;
+}
+
+
+/* Individual Result Blocks */
+
+#cubeResult {
+  margin-top: 10px;
+  color: #2e86c1;
+}
+
+#rectangleResult {
+  margin-top: 10px;
+  color: #d35400;
+}
+
+#coneResult {
+  margin-top: 10px;
+  color: #8e44ad;
+}
+
+#cylinderResult {
+  margin-top: 10px;
+  color: #27ae60;
+}
+
+#sphereResult {
+  margin-top: 10px;
+  color: #c0392b;
+}
+
+#pyramidResult {
+  margin-top: 10px;
+  color: #7f8c8d;
+}

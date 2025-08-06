@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Volume Calculator</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<body>
+    <center>
+    <div class="container">
+  <h1>Volume Calculator</h1>
+  <p>Calculate the volume of various 3D shapes.</p>
+    <button onclick="calculatevolumeofcube()">Cube</button>
+  <div id = "cubeResult"></div>
+
+    <button onclick="calculatevolumeofrectangle()">Rectangle</button>
+  <div id = "rectangleResult"></div>
+
+    <button onclick="calculatevolumeofcone()">Cone</button>
+  <div id = "coneResult"></div>
+
+    <button onclick="calculatevolumeofcylinder()">Cylinder</button>
+  <div id = "cylinderResult"></div>
+
+    <button onclick="calculatevolumeofsphere()">Sphere</button>
+  <div id = "sphereResult"></div>
+
+    <button onclick="calculatevolumeofpyramid()">Pyramid</button>
+  <div id = "pyramidResult"></div>
+
+    <button class="reset" onclick="resetResults()">Reset</button>
+
+    </div>
+
+  </center>
+
+<script src = "cube.js"></script>
+<script src = "rectangle.js"></script>
+<script src = "cone.js"></script>
+<script src = "cylinder.js"></script>
+<script src = "sphere.js"></script>
+<script src = "pyramid.js"></script>
+<script src = "reset.js"></script>
+
+</div>
+
+
+
+</body>
+</html>
